@@ -803,10 +803,19 @@ Later improvements could include:
 
 You will submit a URL to the repo you created for this activity. On this repo you will write a README file that will contain:
 1. What were the new things you learned in this activity?
+In this activity, I learned how to build and deploy a REST API using Node.js, Express, MongoDB, Docker, and Heroku. I also learned how to connect a cloud-hosted MongoDB database, use environment variables for security, create API routes with query filtering, and test endpoints using Postman.
 2. What is the purpose of the `seed.js` program?
+The purpose of the seed.js program is to automatically populate the database with sample transaction data. This helps test the API endpoints without manually creating records one by one.
 3. What was the most dificult thing to do in this activity?
+The most difficult thing was connecting to MongoDB and that wasnt even that difficult.I also got help from another student which made things easier.
 4. How would you say you were prudent in this assignment?
+I was prudent in this assignment by carefully testing all API endpoints using Postman before and after deployment to ensure they worked correctly. I also verified that the application functioned properly in both local and production environments.
 5. How would you say you need to be prudent when developing this kind of web applications?
+When developing this type of web application, it is important to be prudent about protecting sensitive data, validating user input, handling errors properly, and securing database connections. Developers also need to carefully test API endpoints and deployment configurations to avoid issues in production environments.
 6. URL of your deployed application as a link.
+https://transactions-api-sami-85cd96bdda8f.herokuapp.com
 7. Screenshots of Postman making requests to your **deployed** application
-8. Screenshotds
+<img width="1470" height="956" alt="Screenshot 2026-05-18 at 3 26 37 PM" src="https://github.com/user-attachments/assets/2b80c0cd-d513-4771-861c-dfa45220b17f" />
+
+8. Screenshots
+   added to Phase 12 right under their respective commands
