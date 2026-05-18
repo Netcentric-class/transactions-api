@@ -655,24 +655,31 @@ Get all transactions:
 ```bash
 curl http://localhost:3000/transactions
 ```
+<img width="1470" height="956" alt="Screenshot 2026-05-18 at 3 17 23 PM" src="https://github.com/user-attachments/assets/c51c3903-79a0-4833-b40b-328c36f90a76" />
 
 Get by date:
 
 ```bash
 curl "http://localhost:3000/transactions?date=2026-05-12"
 ```
+<img width="1470" height="956" alt="Screenshot 2026-05-18 at 3 19 25 PM" src="https://github.com/user-attachments/assets/ddaa17c2-4c67-40ce-937c-ec0c5a0d2616" />
+
 
 Get by date range:
 
 ```bash
 curl "http://localhost:3000/transactions?startDate=2026-05-01&endDate=2026-05-31"
 ```
+<img width="1470" height="956" alt="Screenshot 2026-05-18 at 3 20 30 PM" src="https://github.com/user-attachments/assets/979816de-ccc9-4876-80ad-f95e1a3e108e" />
+
 
 Get by card nickname:
 
 ```bash
 curl "http://localhost:3000/transactions?creditCardNickname=Costco%20Visa"
 ```
+<img width="1470" height="956" alt="Screenshot 2026-05-18 at 3 21 07 PM" src="https://github.com/user-attachments/assets/efc24ac1-616c-49a4-83c3-4f18296f3815" />
+
 
 You should also run all `GET` request tests on a browser, and test the `POST` request on Postman.
 
